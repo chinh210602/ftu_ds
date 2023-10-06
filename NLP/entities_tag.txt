@@ -1,0 +1,5 @@
+B-date: Kí tự đầu của date
+I-date: Kí tự sau của date
+amount: Lượng tiền
+B-type: Kí tự đầu của hàng hóa
+I-type: Kí tự sau của hàng hóa
