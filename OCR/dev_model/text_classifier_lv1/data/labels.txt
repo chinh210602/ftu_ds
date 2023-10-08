@@ -1,0 +1,5 @@
+0: date
+1: type
+2: volume
+3: amount
+4: unk
