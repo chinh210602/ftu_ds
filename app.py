@@ -29,11 +29,11 @@ class MyGUI():
         self.today = datetime.strptime('2023-09-12','%Y-%m-%d')
         try:
             config = Config('./OCR/tool/config/configs.yaml')
-            self.ocr_pipeline = OCRPipeline(output = "D:/Python_Project/DS_FTU/result_images",
+            self.ocr_pipeline = OCRPipeline(output = "./result_images",
                                             config = config)
             print("OCR modules loading completed")
-        except:
-            print("OCR modules loading failed")
+        except Exception as error:
+            print("OCR modules loading failed due to", error)
 
         try:
             self.nlu_pipeline = NLUPipeLine("./NLP/models/nlu_model_v1.json",

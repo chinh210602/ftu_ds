@@ -1,19 +1,19 @@
 #################   DETECTION CONFIG   ###################
 
-det_weight: "D:/Python_Project/DS_FTU/OCR/weights/PANNet_best_map.pth"
-det_config: "D:/Python_Project/DS_FTU/OCR/tool/config/detection/configs.yaml"
+det_weight: "./OCR/weights/PANNet_best_map.pth"
+det_config: "./OCR/tool/config/detection/configs.yaml"
 
 #################   OCR CONFIG   ###################
 
-ocr_weight: "D:/Python_Project/DS_FTU/OCR/weights/transformerocr.pth"
-ocr_config: "D:/Python_Project/DS_FTU/OCR/tool/config/ocr/configs.yaml"
+ocr_weight: "./OCR/weights/transformerocr.pth"
+ocr_config: "./OCR/tool/config/ocr/configs.yaml"
 
 #################   RETRIEVAL CONFIG   ###################
 
 retr_mode: "all"
 correction_mode: "ed"
-bert_weight: "D:/Python_Project/DS_FTU/OCR/weights/phobert_report.pth"
-dictionary_csv: "D:/Python_Project/DS_FTU/OCR/modules/retrieval/heuristic/custom-dictionary.csv"
+bert_weight: "./OCR/weights/phobert_report.pth"
+dictionary_csv: "./OCR/modules/retrieval/heuristic/custom-dictionary.csv"
 retr_classes: [
   "SELLER",
   "ADDRESS",
